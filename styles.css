@@ -1,0 +1,18 @@
+body{
+    background-color: aquamarine;
+}    
+
+.wrapper{
+    position: absolute;
+    top: 10%;
+    left:42%
+
+}
+
+img{
+    width:300px;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
