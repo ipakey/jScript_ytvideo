@@ -1,0 +1,61 @@
+body{
+    background-color: cadetblue;
+}
+
+.wrapper{
+    position: absolute;
+    top: 10%;
+    left: 42%;
+}
+
+img{
+    width: 300px;
+}
+
+.btn{
+    background: coral;
+    color: darkgreen;
+    margin: 3rem 3rem;
+}
+
+.btn:hover{
+    color: white;
+    background: darkorange;
+}
+
+.btn:focus{
+    box-shadow: none;
+}
+.zero{
+   box-shadow: none; 
+   transform:rotateX(0deg);
+}
+
+.pos1{
+    box-shadow: none; 
+    transform:rotateX(60deg);
+}
+
+.pos2{
+    box-shadow: none; 
+    transform:rotateX(120deg);
+}
+.pos3{
+    box-shadow: none; 
+    transform:rotateX(180deg);
+}
+
+.pos4{
+    box-shadow: none;   
+    transform:rotateX(240deg);
+}
+.pos5{
+    box-shadow: none; 
+    transform:rotateX(300deg);
+}
+.rotate{
+    transform:rotateX(-60deg);
+}
+
+
+
